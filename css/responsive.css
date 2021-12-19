@@ -1,0 +1,731 @@
+/*Extra small devices (portrait phones, 320px and up)*/
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+.navbar .menu{
+	position: fixed;		
+	left: -160%;
+	top: 0;
+	width: 100%;
+	background: #111;
+	text-align: center;
+	padding-top: 80px;
+	transition: all 0.3s ease;
+}
+.navbar .menu.active{
+	left: -250px;
+    width: 120%;
+    top: -10px;
+}
+.navbar .menu li{
+	display: block;
+}
+.navbar .menu li a{
+	display: inline-block;
+	margin: 10px 0;
+    font-size: 25px;
+}
+.navbar .logo a {
+    font-weight: 400;
+    color: white;
+    margin-left: 0px;
+    font-size: 28px;
+}
+.menu-btn{
+	display: block;
+	z-index: 999;
+	margin-left: 0px;
+}
+.menu-btn i {
+        font-size: 27px;
+    margin-left: 8px;
+}
+.menu-btn i.active:before{
+	content:"\f00d";
+}
+.home {
+       /*margin-right: -58px;*/
+       width: 118%;
+       padding-top: 185px;
+}
+.home .home-content {
+    margin-top: -27px;
+}
+.home .home-content .text-1 {
+    font-size: 25px;
+}
+.home .home-content .text-2{
+	font-size: 30px;
+}
+.home .home-content .text-3{
+	font-size: 22px;
+}
+.home .max-width{
+	margin: auto 0 auto 12px;
+}
+.home .home-content a{    
+    padding: 7px 15px;    
+    font-size: 25px;    
+}
+.about .about-content .left img {            
+	width: 312% !important;
+    margin-bottom: 1000px;
+    margin-left: -25px !important;
+}
+.about .about-content .right .text {   
+        margin-bottom: 20px;
+    margin-left: -127px;
+    margin-right: 13px;
+}
+.about .about-content .right p {    
+        margin-left: -130px;
+    margin-right: -62px;
+}
+.about .about-content .right a {    
+    padding: 10px 7px;
+    margin-left: -125px;
+    font-size: 18px; 
+}
+.services{	
+	margin-top: -500px;
+	width: 118%;
+}
+.services .title {
+    
+}
+.services .title::before{    
+    top: 85px;
+    width: 210px;
+    left: 49%;
+}
+.services .title::after{
+    top: 70px;
+    left: 49%;
+    right: -6%;
+        width: 150px;
+    padding-bottom: 30px;
+}
+.services .services-content .cart {
+    width: 100%;    
+    margin: 10px 0;
+}
+.services .services-content .cart i{
+	font-size: 50px;
+	color: crimson;
+	transition: color 0.3s ease;
+}
+section .title {    
+    font-size: 30px;
+        
+}
+.skills .title {    
+    padding-left: 15px;    
+}
+.skills .skill-content .column, .contact .contact-content .column {
+    width: 100%;
+    margin: 0 0px;    
+}
+.skills .skill-content .left{    
+    margin-left: -5px;   
+}
+.skills .skill-content .left .text {
+    font-size: 24px;
+    margin-right: -90px;      
+}
+.skills .skill-content .left p {    
+    margin-right: -72px;    
+}
+.skills .skill-content .left a { 
+    margin-bottom: 55px;    
+}
+.skills .skill-content .right .bars{ 
+       margin-right: -60px;
+}
+.item-menu ul li {    
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.item-details img {
+    width: 122%;
+    height: 100%;
+ }
+.teams{
+	width: 118%;
+}
+.testimonial{
+	width: 118%;
+}
+
+.test-content h3 {
+    padding: 0 0px;
+    font-size: 21px;    
+}
+.test-content p {
+    margin-left: 18px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding: 50px 0;
+    color: white !important;
+}
+.crimson {    
+    margin-left: 133px;
+    padding-top: 69px;
+    padding-bottom: 51px;
+}
+.contact .contact-content .text {
+    font-size: 26px;    
+}
+.contact .contact-content .left p {    
+    font-weight: 600;
+}
+footer {    
+    width: 118%;
+}
+.foot-span{	
+	margin-left: 5px;
+}
+
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+
+.navbar .logo a {
+    font-weight: 400;   
+    margin-left: 0px;
+    font-size: 28px;
+}
+.navbar .menu{
+	position: fixed;		
+	left: -133%;
+	top: 0;
+	width: 100%;
+	background: #111;
+	text-align: center;
+	padding-top: 80px;
+	transition: all 0.3s ease;
+}
+.navbar .menu.active{
+	left: -190px;
+    width: 100%;
+    top: -11px;
+}
+.navbar .menu li{
+	display: block;
+}
+.navbar .menu li a{
+	display: inline-block;
+	margin: 20px 0;
+	font-size: 25px;
+}
+.menu-btn{
+	display: block;
+	z-index: 999;
+	margin-left: 180px;
+}
+.menu-btn i.active:before{
+	content:"\f00d";
+}
+.home, .services, .teams, .testimonial, footer{       
+       width: 116%;       
+}
+.home .home-content{
+	margin-top: 230px;
+}
+
+.home .home-content .text-1 {
+    font-size: 28px;
+    margin-top: -165px;
+}
+.home .home-content .text-2{
+	font-size: 45px;
+}
+.home .home-content .text-3{
+	font-size: 28px;
+}
+.home .home-content a{	
+        font-size: 22px;
+    padding: 9px 22px;    
+}
+.about .about-content .column{
+	width: 100%;
+}
+.about .about-content .left{
+	display: flex;
+	justify-content: center;
+	margin: 0 auto 60px;
+}
+/*.about .about-content .left img {    
+	width: 268%;   
+    margin-bottom: 1000px;
+}*/
+.about .about-content .right{
+	flex: 100%;
+}
+.about .about-content .right .text {   
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.about .about-content .right p {    
+    margin-left:30px;
+    margin-right:30px;
+}
+.about .about-content .right a {    
+    padding: 10px 15px;
+    margin-left: 30px; 
+}
+.about .about-content .left img {
+    height: 100%;
+    width: 100%;    
+    margin-left: 86px;    
+}
+.services .services-content .cart .text {
+    font-size: 20px;    
+    margin: 20px 0 15px 0;
+}
+.services{	
+	margin-top: -46px;
+}
+.services .title{
+    margin-bottom: 90px;
+}
+.services .title::before{     
+    width: 220px;    
+}
+.services .services-content .cart {
+    width: 100%;    
+    margin: 10px 0;
+    height: 350px;
+}
+.services .services-content .cart i{
+	font-size: 50px;
+	color: crimson;
+	transition: color 0.3s ease;
+}
+section .title {    
+    font-size: 30px;    
+}
+.skills .skill-content .column, .contact .contact-content .column{
+    width: 100%;
+    margin: 0 25px;    
+}
+.skills .skill-content .left .text {
+    font-size: 24px;    
+}
+.skills .skill-content .left a { 
+    margin-bottom: 55px;
+}
+.skills .skill-content .left p {   
+    margin-right: -100px;
+}
+.skills .skill-content .right .line {   
+    width: 120%;
+    font-size: 18px;    
+}
+.teams .carousel .cart .box{	
+	width: 150px;
+}
+.teams .carousel .cart img {    
+    margin: 50px;
+    margin-left: 335px;
+}
+.teams .carousel .cart .text {
+    font-size: 26px;    
+    margin: 25px -200px 21px 75px;
+}
+.teams .carousel .cart .box .p {
+    font-size: 20px;
+    margin: 0-200px 21px 75px;
+}
+.teams .carousel .cart .box p {
+    margin-left: 50px;
+    margin-right: -245px;
+}
+.item-details img {
+        width: 100%;    
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+ }
+.test-content h3 {
+    padding: 0 0px;
+    font-size: 21px;    
+}
+.test-content p {
+    margin-left: 150px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding: 50px 0;
+    color: white !important;
+}
+.crimson {    
+    margin-left: 230px;
+    padding-top: 69px;
+    padding-bottom: 51px;
+}
+.foot-span{	
+	margin-left: 100px;
+}
+
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+.max-width{
+	padding: 0 0px;
+}
+
+.navbar .logo a {
+    font-size: 36px;    
+    margin-left: -10px;
+}
+.navbar .menu{
+	position: fixed;		
+	left: -126%;
+	top: 0;
+	width: 100%;
+	background: #111;
+	text-align: center;
+	padding-top: 80px;
+	transition: all 0.3s ease;
+}
+.navbar .menu.active{
+	left: -190px;
+    width: 100%;
+    top: -11px;
+}
+.navbar .menu li{
+	display: block;
+}
+.navbar .menu li a{
+	display: inline-block;
+	margin: 20px 0;
+	font-size: 25px;
+}
+.menu-btn{
+	display: block;
+	z-index: 999;
+	margin-left: 300px;
+}
+.menu-btn i.active:before{
+	content:"\f00d";
+}
+.home, .services, .teams, .testimonial, footer{
+	width: 107%;
+}
+.home .home-content .text-1{
+	font-size: 25px;
+	margin-top: -70px;
+}
+.home .home-content .text-2{
+	font-size: 40px;
+}
+.home .home-content .text-3{
+	font-size: 25px;
+}
+.home .home-content a{	
+        font-size: 22px;
+    padding: 9px 22px;    
+}
+
+.about .about-content .column{
+	width: 100%;
+}
+.about .about-content .left{
+	display: flex;
+	justify-content: center;
+	margin: 0 auto 60px;
+}
+.about .about-content .right{
+	flex: 100%;
+}
+.about .about-content .right .text {   
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.about .about-content .right p {    
+    margin-left:30px;
+    margin-right:30px;
+}
+.about .about-content .right a {    
+    padding: 10px 15px;
+    margin-left: 30px; 
+}
+.services .services-content .cart .box p{
+	font-size:14px ;
+}
+.services .services-content .cart{
+	height: 430px;
+    width: 100%;
+    margin-bottom: 36px;
+}
+.services .title::before{     
+    width: 220px;    
+}
+section .title {    
+    font-size: 30px;    
+}
+.skills .skill-content .column, .contact .contact-content .column {
+    width: 100%;
+    margin: 0 35px;    
+}
+.skills .skill-content .left .text {
+    font-size: 24px;    
+}
+.skills .skill-content .left a { 
+    margin-bottom: 55px;
+}
+.crimson {    
+    margin-left: 325px;    
+}
+.item-details img {
+	width: 95%;    
+    margin-left: 10px;
+}
+.test-content h3 {
+    padding: 50px 47px 40px 50px;    
+}
+.test-content p {
+    margin-left: 260px;
+    font-size: 17px;    
+}
+.foot-span{	
+	margin-left: 200px;
+}
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	/*.home .max-width{
+		margin-left: 0px;
+	}*/
+	.navbar .logo a {
+    font-size: 36px;    
+    margin-left: -45px;
+}
+.navbar .menu {
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.navbar .menu li a {
+    font-size: 23px;    
+    margin-left: -40px;    
+}
+.home, .services, .teams, .testimonial, footer{
+	width: 115%;
+}
+.home .home-content {    
+    margin-left: -50px;
+}
+.home .home-content .text-1{
+	font-size: 30px;
+	margin-top: 150px;
+}
+.home .home-content .text-2{
+	font-size: 45px;
+	padding: 10px 0;
+}
+.home .home-content .text-3{
+	font-size: 30px;
+}
+.home .home-content a{	
+    font-size: 25px;
+    padding: 9px 27px;    
+}
+.home .right img {
+    width: 160%;
+    margin-top: -445px;
+    margin-left: -125px;
+}
+.about .about-content .column{
+	width: 50%;
+}
+.about .about-content .left img{
+	height: 350px;
+	width: 350px;	
+}
+.services .services-content .cart{
+	height: 460px;
+}
+.services .title::before{     
+    width: 220px;    
+}
+.skills .skill-content .left .text {
+    font-size: 24px;    
+}
+.skills .skill-content .right .line {
+    height: 6px;    
+    margin-top: 10px;
+}
+.item-details {    
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.item-details img {
+    width: 96%;    
+}
+.crimson {    
+    margin-left: 397px;
+    padding-top: 95px;
+}
+.test-content h3 {
+    padding: 50px 120px 40px 100px;    
+}
+.test-content p {
+    margin-left: 390px;
+    font-size: 16px;    
+}
+.contact .contact-content .right {
+    margin-top: -310px;
+    margin-left: 470px;
+}
+
+.foot-span{	
+	margin-left: 290px;
+}
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px){
+	.home .max-width{
+		margin-left: 0px;
+	}
+	.navbar .logo a {
+    font-size: 36px;    
+    margin-left: -10px;
+}
+.navbar .menu {
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.navbar .menu li a {
+    font-size: 26px;    
+    margin-left: -40px;    
+}
+.home, .services, .teams, .testimonial, footer{
+	width: 100%;
+}
+.home .home-content .text-1{
+	font-size: 30px;
+	margin-top: 150px;
+}
+.home .home-content .text-2{
+	font-size: 45px;
+	padding: 10px 0;
+}
+.home .home-content .text-3{
+	font-size: 30px;
+}
+.home .home-content a{	
+    font-size: 25px;
+    padding: 9px 27px;    
+}
+.home .right img {
+    width: 90%;
+    margin-top: -390px;
+}
+.services .services-content .cart{
+	height: 420px;
+}
+.services .title::before{     
+    width: 220px;    
+}
+.item-details {    
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.crimson {    
+    padding-top: 90px;
+}
+.test-content p {    
+    font-size: 18px;    
+}
+.foot-span{	
+	margin-left: 440px;
+}
+
+}
+/*Extra extra large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) and (max-width: 1599.98px){
+	.home .max-width{
+		margin-left: 0px;
+	}
+	.navbar .logo a {
+    font-size: 42px;
+    font-weight: 600;
+    color: white;
+    margin-left: 1px;
+}
+.navbar .menu {
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.navbar .menu li a {
+    font-size: 26px;    
+    margin-left: -40px;    
+}
+.home, .services, .teams, .testimonial, footer{
+	width: 100%;
+}
+.home .home-content .text-1{
+	font-size: 30px;
+	margin-top: 150px;
+}
+.home .home-content .text-2{
+	font-size: 45px;
+	padding: 10px 0;
+}
+.home .home-content .text-3{
+	font-size: 30px;
+}
+.home .home-content a{	
+    font-size: 25px;
+    padding: 9px 27px;    
+}
+.services .title::before{     
+    width: 220px;    
+}
+.crimson {    
+    padding-top: 75px;
+    margin-left: 560px;
+}
+.item-details {
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 30px;
+} 
+   
+.test-content p {
+    margin-left: 560px;    
+}
+.foot-span {
+    margin-left: 480px;
+}
+}
+/*Extra extra large devices (larger desktops, 1600px and up)*/
+@media (min-width: 1600px) {
+
+	.navbar .menu li a {
+    font-size: 26px;    
+    margin-left: -40px;    
+}
+.navbar .logo a {
+    font-size: 42px;
+    font-weight: 600;
+    color: white;
+    margin-left: 1px;
+}
+.home, .services, .teams, .testimonial, footer{
+	width: 100%;
+}
+.services .title::before{     
+    width: 220px;    
+}
+.item-details {
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+}
